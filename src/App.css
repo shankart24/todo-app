@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  max-height: auto;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.hero {
+  min-height: 35vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  width: 90%;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  top: -30px;
+}
+
+.hero-content h3 {
+  font-weight: 700;
+  font-size: 2.3rem;
+  color: white;
+}
+
+.hero-content img {
+  cursor: pointer;
+}
+
+.hero-content button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  height: auto;
+  width: 100%;
+  max-width: 600px;
+  padding: 0px 20px;
+  position: relative;
+  top: -90px;
+  border-radius: 5px;
+  /* background-color: yellow !important; */
+}
+
+.todo-container {
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.11);
+  /* background-color: red !important; */
+}
+
+.todo-form input {
+  width: 80%;
+  height: 40px;
+  padding: 20px;
+  border: none;
+}
+
+.todo-form button {
+  width: 20%;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.todos-list {
+  height: 300px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 5px;
+  /* background-color: green !important; */
+}
+
+.todo-divs {
+  min-height: 50px;
+  max-height: auto;
+  width: 100%;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.11);
+  /* background-color: purple !important; */
+}
+
+.todo-divs>div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.todo-divs li {
+  list-style: none;
+  padding: 20px;
+}
+
+.close-img {
+  padding: 12px 10px;
+  cursor: pointer;
+}
