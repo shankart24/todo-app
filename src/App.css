@@ -7,9 +7,14 @@
   font-family: 'DM Sans', sans-serif;
 }
 
-a,button{
+input[type="button"] {
   outline: none !important;
-  border:0 !important;
+  border: 0 !important;
+}
+
+button:focus {
+  outline: none !important;
+  border: 0 !important;
 }
 
 .app {

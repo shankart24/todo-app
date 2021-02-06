@@ -13,6 +13,7 @@ const TodoContainer = ({ txtColor, todoBgColor, closeIcon }) => {
 		e.preventDefault();
 		if (item.content.length !== 0) {
 			setTodos([...todos, { id: item.id, content: item.content }]);
+			setItem({ id: null, content: "" });
 			inputEle.current.value = "";
 			inputEle.current.focus();
 		}
